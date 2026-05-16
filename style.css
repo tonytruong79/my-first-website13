@@ -391,3 +391,24 @@ a {
     padding: 12px 0;
   }
 }
+
+/* CSS tối ưu cho Google Form nhúng */
+.lead-form iframe {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .lead-form iframe {
+    height: 1000px !important;
+  }
+}
+
+/* Responsive cho tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead-form iframe {
+    height: 900px !important;
+  }
+}
